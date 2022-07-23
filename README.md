@@ -3,8 +3,15 @@
 Hi and thank you for your interest in joining 645 Ventures! To save you some time, we have built a small Rails API that wraps around an old public Crunchbase data dump from 2013. Don't worry about it being old, we're only interested in what you build with it, rathern the underlying information. This includes ~100,000 records between startups, fundraising rounds, and acquisitions. Feel free to use this any way you'd like. You can either modify this API and re-host it, or use the hosted version at the link we provided via email. You can find endpoint docs below:
 
 ## Installing
+
 ```
-./bin/setuip
+docker-compose up --build -d
+```
+
+or
+
+```
+./bin/setup
 ```
 
 or 
